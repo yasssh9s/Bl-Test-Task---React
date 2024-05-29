@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    opacity: 0.9;    
+}
+
+/* Title */
+.heading {
+    display: flex;
+
+}
+
+.title {
+    color: #5D12D2;
+    font-size: 30px;
+    opacity: 0.7;
+
+}
+
+.sub-title {
+    color: #444;
+    font-weight: 600;
+    opacity: 0.7;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+/* Search Box */
+.search {
+    padding: 1px 8px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+.in {
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+
+/* User */
+
+.user img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
