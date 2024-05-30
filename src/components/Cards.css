@@ -20,12 +20,12 @@
     padding: 5px 40px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
 }
   
 
 .card-percentage {
-    font-size: 0.9em;
-    color: #888;
+    color: black
 }
 
 .card-header {
@@ -38,12 +38,17 @@
 /* Cards Font Color */
 .c {
     color: #36A2EB;
+    background: linear-gradient(90deg in oklab, rgba(135, 207, 235, 0.852), white);
 }
 
 .r {
     color: red;
+    background: linear-gradient(90deg in oklab, rgba(255, 0, 0, 0.856), white);
+
 }
 
 .g {
     color: rgb(7, 192, 7);
+    background: linear-gradient(90deg in oklab,  rgba(144, 238, 144, 0.866) , white);
+
 }

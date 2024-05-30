@@ -30,25 +30,25 @@ function Cards() {
 
   return <div className="main">
      <div className="">
-     <div className="cards">
+     <div className="cards ">
         <div className="card c">
           <div className="card-header">
           <h3>Cases</h3>
-          <span className="card-percentage">23% <span>↑</span></span>
+          <h3 className="card-percentage">23% ↑</h3>
           </div>
           <h1>{totalCases}</h1>
         </div>
         <div className="card r">
         <div className="card-header">
           <h3>Deaths</h3>
-          <span className="card-percentage">19% <span>↑</span></span>
+          <h3 className="card-percentage">19% ↑</h3>
           </div>
           <h1>{totalDeaths}</h1>
         </div>
         <div className="card g">
         <div className="card-header">
           <h3>Recovered</h3>
-          <span className="card-percentage">15% <span>↑</span></span>
+          <h3 className="card-percentage">15% ↑</h3>
           </div>
           <h1>{totalRecovered}</h1>
         </div>
