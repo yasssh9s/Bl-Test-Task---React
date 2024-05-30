@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  /* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+.card{
+    width: 12vw;
+    text-align: center;
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+
+.card-percentage {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Cards Font Color */
+.c {
+    color: #36A2EB;
+}
+
+.r {
+    color: red;
+}
+
+.g {
+    color: rgb(7, 192, 7);
+}
