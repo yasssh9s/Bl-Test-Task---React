@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import './Cards.css'
+import CovidBarChart from "./CovidBarChart";
 
 function Cards() {
 
@@ -53,6 +54,7 @@ function Cards() {
           <h1>{totalRecovered}</h1>
         </div>
       </div>
+      <CovidBarChart/>
 
      </div>
 
