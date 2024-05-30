@@ -25,7 +25,7 @@ function Navbar() {
             </span>
                 <FaRegBell /> 
                 <RxExit />
-                <RiMenu4Fill />
+                <RiMenu4Fill  className='show'/>
             </div>
         </nav>
     </div>

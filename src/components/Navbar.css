@@ -64,6 +64,11 @@
 }
 
 
+/* Hiding Menu */
+.show {
+    display: none;
+}
+
 
 
 
