@@ -8,7 +8,9 @@ import './Map.css';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+// importing chartjs and react-leaflet for creating donut and maps
 const App = () => {
+  // Setting States
   const [worldData, setWorldData] = useState(null);
   const [globalStats, setGlobalStats] = useState({
     deaths: 0,
@@ -32,7 +34,7 @@ const App = () => {
           totalActive += country.active;
           totalCases += country.cases;
         });
-
+        // Assign global stats
         setGlobalStats({
           deaths: totalDeaths,
           recovered: totalRecovered,
@@ -47,6 +49,7 @@ const App = () => {
 
   if (!worldData) return <div>Loading...</div>;
 
+  // Creating donut
   const donutData = {
     labels: ['Deaths', 'Recovered', 'Active'],
     datasets: [
@@ -84,7 +87,7 @@ const App = () => {
         </div>
       </div>
 
-
+          {/* Adding Map here I have used Chatgpt to learn about react-leaflet and maps */}
       <div className="map">
         <MapContainer center={[20, 0]} zoom={2} style={{ height: '400px' }}>
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

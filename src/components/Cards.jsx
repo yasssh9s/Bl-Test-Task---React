@@ -4,6 +4,7 @@ import './Cards.css'
 import CovidBarChart from "./CovidBarChart";
 import Live from "./Live"
 import Map from "./Map";
+import Box from "./Box";
 
 function Cards() {
 
@@ -61,6 +62,7 @@ function Cards() {
      </div>
      <div>
         <Live/>
+        <Box/>
      </div>
 
   </div>;
