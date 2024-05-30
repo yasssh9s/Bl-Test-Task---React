@@ -3,6 +3,7 @@ import axios from "axios";
 import './Cards.css'
 import CovidBarChart from "./CovidBarChart";
 import Live from "./Live"
+import Map from "./Map";
 
 function Cards() {
 
@@ -56,7 +57,7 @@ function Cards() {
         </div>
       </div>
       <CovidBarChart/>
-
+        <Map/>
      </div>
      <div>
         <Live/>
