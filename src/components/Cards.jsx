@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import './Cards.css'
 import CovidBarChart from "./CovidBarChart";
+import Live from "./Live"
 
 function Cards() {
 
@@ -56,6 +57,9 @@ function Cards() {
       </div>
       <CovidBarChart/>
 
+     </div>
+     <div>
+        <Live/>
      </div>
 
   </div>;
