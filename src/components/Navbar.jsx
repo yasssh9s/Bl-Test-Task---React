@@ -23,8 +23,8 @@ function Navbar() {
             <img src="https://i.pinimg.com/564x/7d/90/59/7d90599a3fffd3011c87b67da4e2f329.jpg" alt="image" border="0" />
             <RiArrowDropDownLine /> 
             </span>
-                <FaRegBell /> 
-                <RxExit />
+                <FaRegBell className='hide' /> 
+                <RxExit className='hide' />
                 <RiMenu4Fill  className='show'/>
             </div>
         </nav>

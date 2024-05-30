@@ -33,7 +33,7 @@ function Cards() {
   const totalRecovered = data?.total?.recovered || 0;
 
   return <div className="main">
-     <div className="">
+     <div className="Stastics">
      <div className="cards ">
         <div className="card c">
           <div className="card-header">
@@ -60,7 +60,7 @@ function Cards() {
       <CovidBarChart/>
         <Map/>
      </div>
-     <div>
+     <div className="Stastics">
         <Live/>
         <Box/>
      </div>

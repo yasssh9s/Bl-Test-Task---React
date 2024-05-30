@@ -53,3 +53,12 @@
 
 
  
+@media (max-width: 1200px) {
+  .virus {
+    font-size: 2.5vw;
+  }
+
+  .icon {
+    font-size: 2vw;
+  }
+}

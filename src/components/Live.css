@@ -40,3 +40,10 @@
       border-radius: 50%;
       background-color: red;
     }
+
+    @media (max-width: 1200px) {
+      .live {
+        width: 50vw;
+        padding: 50px;
+      }
+    }

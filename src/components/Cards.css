@@ -52,3 +52,31 @@
     background: linear-gradient(90deg in oklab,  rgba(144, 238, 144, 0.866) , white);
 
 }
+
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .cards {
+
+      flex-direction: column;
+
+    }
+
+    .card {
+      width: 50vw;
+    }
+
+    .main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 100px; */
+    }
+
+    .Stastics {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }

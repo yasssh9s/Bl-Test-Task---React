@@ -69,6 +69,21 @@
     display: none;
 }
 
+/* Responsive */
+@media (max-width: 850px) {
+    .search {
+        display: none;
+    }
+    .hide {
+        display: none;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .show {
+        display: block;
+    }
+}
 
 
 

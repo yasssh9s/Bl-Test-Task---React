@@ -52,3 +52,38 @@
     margin-bottom: 10px;
   }
   
+
+
+  @media (max-width: 1200px) {
+    .dashboard {
+      width: 50vw;
+      flex-direction: column;
+
+    }
+
+    .map {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .statistics {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .total-cases {
+      margin-top: 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .country-list {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .country-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
